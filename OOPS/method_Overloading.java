@@ -1,7 +1,7 @@
 //to understand method overloading see the class_Obj.java file because i am using the same example here
 
 
-class calculator {
+class calc {
     public int add(int n1, int n2) {
         return n1 + n2;
     }
@@ -23,7 +23,7 @@ public class method_Overloading {
         int num1 = 5;
         int num2 = 5;
 
-        calculator cal = new calculator(); // Object of class calculator
+        calc cal = new calc(); // Object of class calculator
 
         int result = cal.add(num1, num2);
         int result2 = cal.add(10, 20, 30);
