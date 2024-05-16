@@ -22,9 +22,6 @@ num[2] = 3;
 
 */
 
-
-
-
 public class Array {
     
 //Lets us understand via printing random numbers
