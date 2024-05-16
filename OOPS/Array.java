@@ -29,31 +29,32 @@ public class Array {
     public static void main(String[] args) {
         
         //1D Array
-        int num[] = new int[3]; // 3 is the size of the array
+        int num1[] = new int[3]; // 3 is the size of the array
 
         for(int i = 0; i < 3; i++){
-            System.out.println((int)(Math.random()*100)); //Math.Random is used to generate random numbers between 0 to 1 like 0.73 0.34, 0.12 etc
+            num1[i] = (int)(Math.random()*100);
+            System.out.println(num1[i]); //Math.Random is used to generate random numbers between 0 to 1 like 0.73 0.34, 0.12 etc
         }
 
         //2D Array
-        int num[][] = new int[3][4]; // 3 is row and 4 is column
+        int num2[][] = new int[3][4]; // 3 is row and 4 is column
 
         for(int i = 0; i < 3; i++){
             for(int j = 0; j < 4; j++){
-               num[i][j] = ((int)(Math.random()*100));
-               System.out.print(num[i][j] + " ");
+               num2[i][j] = ((int)(Math.random()*100));
+               System.out.print(num2[i][j] + " ");
             }
             System.out.println();
         }
 
         //3D Array
-        int num[][][] = new int[3][4][5]; // 3 is row and 4 is column and 5 is depth
+        int num3[][][] = new int[3][4][5]; // 3 is row and 4 is column and 5 is depth
 
         for(int i = 0; i < 3; i++){
-            for(int j = 0; j < num[i].length; j++){
-                for(int k = 0; k < num[i][j].length; k++){
-                    num[i][j][k] = ((int)(Math.random()*100));
-                    System.out.print(num[i][j][k] + " ");
+            for(int j = 0; j < num3[i].length; j++){
+                for(int k = 0; k < num3[i][j].length; k++){
+                    num3[i][j][k] = ((int)(Math.random()*100));
+                    System.out.print(num3[i][j][k] + " ");
                 }
                 System.out.println();
             }
