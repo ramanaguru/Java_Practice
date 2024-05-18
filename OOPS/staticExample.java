@@ -7,7 +7,18 @@ Static ?
 
 - Static methods are accessed using the class name and don't need an object to be created.
 
+Static methods can accexss only by static variables
 
+
+static block ?
+- A static block is a block of code inside a Java class that will be executed when a class is first loaded into the JVM. (Class Loader)
+class Loader loads the class for the first time, it will execute the static block. and then the objects is istantiated for the number of times.
+
+How to use static block  syntax ?
+
+static{
+    sout("Static block");
+}
 
 */
 
