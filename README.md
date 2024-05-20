@@ -1,12 +1,19 @@
 
-Hi, I am <span style="font-size:75px;">Ramana</span> 😊, Making Java Easy for You
+Hi, I am <span style="font-size:75;">Ramana</span> 😊, Making Java Easy for You
 
 Make sure to follow me on LinkedIn:   https://www.linkedin.com/in/ramanagurunilacandane/
 
 Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
- 
-Order to Follow for Better Understanding, If You Are a Beginner 📚
-Here is the recommended order to follow, with each file and a brief description along with emojis for a fun and engaging overview:
+
+
+If You Are a Beginner 📚   : 
+
+    The file structure and name of the file as order to follow and mention/noted  its uses below  for learning as well as for quick revision ....
+   
+
+
+    ORDER TO FOLLOW : 
+
 
 📝 class_Obj.java
 
