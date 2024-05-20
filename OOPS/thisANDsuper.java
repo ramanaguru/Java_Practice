@@ -1,32 +1,32 @@
 
-Understanding - 1 :  What is super() ?  Super is a keyword in Java which is used to call parent class constructor
+//Understanding - 1 :  What is super() ?  Super is a keyword in Java which is used to call parent class constructor
 
 
-class A {
-    public A(){
-        System.out.println("From A"); 
-    }
+// class A {
+//     public A(){
+//         System.out.println("From A"); 
+//     }
 
     
-}
-class B extends A{
-    public B(){
-        System.out.println("From B");
-    }
+// }
+// class B extends A{
+//     public B(){
+//         System.out.println("From B");
+//     }
 
-    public B(int n){
-        //super()  =========> this is will be present by default see the super() explaination line no : 33
-         System.out.println("From B int");
-    }
+//     public B(int n){
+//         //super()  =========> this is will be present by default see the super() explaination line no : 33
+//          System.out.println("From B int");
+//     }
 
-}
+// }
 
 
-public class thisANDsuper {
-        public static void main(String[] args) {
-            B obj = new B(5);
-        }
-}
+// public class thisANDsuper {
+//         public static void main(String[] args) {
+//             B obj = new B(5);
+//         }
+// }
 
 /*
  
@@ -96,7 +96,7 @@ first see the code flow :
 */
 
 
-Understanding - 2 : what is this()? ===> used to call the current class not the parent {Here I like to execute "FROM A  " , "FROM A int ", "FROM B int"}
+//Understanding - 2 : what is this()? ===> used to call the current class not the parent {Here I like to execute "FROM A  " , "FROM A int ", "FROM B int"}
 
 
 class A {
