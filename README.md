@@ -1,5 +1,5 @@
 
-Hi, I am <span style="font-size:24px;">Ramana</span> 😊, Making Java Easy for You
+Hi, I am <span style="font-size:75px;">Ramana</span> 😊, Making Java Easy for You
 
 Make sure to follow me on LinkedIn:   https://www.linkedin.com/in/ramanagurunilacandane/
 
