@@ -80,6 +80,15 @@ public class finalDemo{
         Cal obj = new cal2();
         obj.add(10, 20);
         obj.print();
+
+        /*
+        Output : 
+
+            Constructor of Cal class
+            30 added
+            Printed from cal2 class
+            
+        */
     }
 
 }
