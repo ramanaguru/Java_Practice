@@ -1,7 +1,7 @@
 /*
 
 Static ? 
-- Static is a keyword in Java used to create variables and methods that belong to a class rather than
+- Static is a keyword in Java used to create variables and methods that belong to a class rather than to an instance of the class.
 
 - Static variables are shared among all instances of a class. OR Common for all object of a class.
 
@@ -33,6 +33,10 @@ class Mobile{
         System.out.println(brand + " " + name + " "+ price);
     }
 
+    public static void display(){
+        System.out.println("Display method");
+    }
+
 }
 
 public class staticExample {
@@ -51,6 +55,8 @@ public class staticExample {
         obj1.show(); // Apple phone 1000 
         obj2.show(); // Samsung phone 800
 
+        Mobile.display(); // Display method
+        //obj1.display(); // This will give error as display is static method and can be accessed by class name only
 
     }
     
