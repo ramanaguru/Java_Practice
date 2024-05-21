@@ -68,6 +68,13 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
     📌 Understanding abstraction and abstract classes in Java.
 
 
+    🔗 InnerClass_AND_Anonymous_InnerClass /
+            🧩 InnerClassExamples.java
+                📌 Understanding inner classes and their usage.
+
+            🧩 AnonymousClassExample.java
+                📌 Exploring anonymous classes in Java and their applications.
+
 
 
 
