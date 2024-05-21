@@ -1,0 +1,12 @@
+# Ignore compiled Java class files
+*.class
+
+# Ignore build directories
+/build/
+
+
+# Ignore 
+/ JAVA
+JAVA
+
+
