@@ -1,5 +1,7 @@
 
-Hi, I am <span style="font-size:75;">Ramana</span> 😊, Making Java Easy for You
+Hi, I am <span style="font-size:75;">Ramana</span> 😊 
+    
+<span> Making JAVA easy for you !!!  </span>
 
     Make sure to follow me on LinkedIn:   https://www.linkedin.com/in/ramanagurunilacandane/
 
@@ -62,7 +64,8 @@ Hi, I am <span style="font-size:75;">Ramana</span> 😊, Making Java Easy for Yo
     🛡️ final.java
     📌 Exploring the final keyword and its usage in Java to define constants, prevent inheritance, and restrict method overriding.    
 
-
+    🪀 AbstractExample.java
+    📌 Understanding abstraction and abstract classes in Java.
 
 
 
