@@ -3,9 +3,9 @@ Hi, I am <span style="font-size:75;">Ramana</span> 😊
     
 <span> Making JAVA easy for you !!!  </span>
 
-    Make sure to follow me on LinkedIn:   https://www.linkedin.com/in/ramanagurunilacandane/
+Make sure to follow me on LinkedIn:   https://www.linkedin.com/in/ramanagurunilacandane/
 
-    Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
+Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
 
     📝 class_Obj.java
     📌 Introduction to creating classes and objects.
