@@ -2,7 +2,13 @@ class Animal {
     public int publicAge = 5;         // Accessible from anywhere
     private int privateAge = 10;      // Accessible only within this class
     protected int protectedAge = 15;  // Accessible within the same package and subclasses
-    int defaultAge = 20;              // Default access: Accessible within the same package
+    int defaultAge = 20;   
+    
+    // Method to access the privateAge field
+    public int getPrivateAge() {
+        return privateAge;
+    }
+      
 }
 
 class Dog extends Animal {
