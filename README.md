@@ -82,7 +82,8 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
         📌 Exploring interfaces and their implementation in Java.
 
 
-
+    📌 EnumExample.java
+    📌 Understanding enums and their usage in Java.
 
     
 
