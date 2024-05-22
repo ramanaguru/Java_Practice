@@ -77,13 +77,14 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
 
             🧩 Abstract_Anonymous_InnerClass.java
                 📌 Understanding abstract classes, anonymous classes, and inner classes in Java.
+    
+    📌 InterfacesExample.java
+        📌 Exploring interfaces and their implementation in Java.
+
+
 
 
     
-
-
-
-
 
 
         By following this structured path, you'll build a solid understanding of Java programming concepts step-by-step, enhancing your learning experience in a systematic way.
