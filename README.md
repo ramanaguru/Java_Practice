@@ -82,9 +82,12 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
         📌 Exploring interfaces and their implementation in Java.
 
 
-    📌 EnumExample.java
-    📌 Understanding enums and their usage in Java.
+    🔄 EnumExample.java
+        📌 Understanding enums and their usage in Java.
 
+
+    🪁 Lambda_expression.java
+        📌 Introduction to lambda expressions and their usage with functional interfaces in Java.
     
 
 
