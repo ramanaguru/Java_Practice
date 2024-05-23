@@ -92,7 +92,7 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
     
 
     🛡️ ExceptionHandling_Example.java
-        📌 Exploring exception handling in Java.
+        📌 Exploring exception handling in Java an its types of exceptions explained.
     
 
 
