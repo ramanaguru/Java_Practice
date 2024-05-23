@@ -79,7 +79,8 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
                 📌 Understanding abstract classes, anonymous classes, and inner classes in Java.
     
     📌 InterfacesExample.java
-        📌 Exploring interfaces and their implementation in Java.
+        📌 Exploring interfaces and their implementation in Java and also explained its types. 
+        📌 Checkout Markerinterface_STUDENTexample.java for the marker interface example , Here I explained about Serializable and Deserializable...
 
 
     🔄 EnumExample.java
