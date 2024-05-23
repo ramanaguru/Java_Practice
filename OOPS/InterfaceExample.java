@@ -52,8 +52,8 @@
         *  Marker Interface : 
                 It is used to deliver type information at runtime to the JVM so that it can take some action based on the information received.
                 It is used for Handling Exceptions
-                
-            =======> See Markerinterfaceexample.java file for detailed explaination with example < ======================
+
+            =======> See Markerinterface_STUDENTexample.java file  in this same folder for detailed explaination with example < ======================
 
             It is  an empty interface which made on purpose
             ex: Cloneable, Serializable (This examples are in-build)
