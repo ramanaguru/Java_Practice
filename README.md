@@ -90,9 +90,12 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
     🪁 Lambda_expression.java
         📌 Introduction to lambda expressions and their usage with functional interfaces in Java.
     
+    🔗 Exceptions /
+        🛡️ ExceptionHandling_Example.java
+            📌 Exploring exception handling in Java an its types of exceptions explained.
 
-    🛡️ ExceptionHandling_Example.java
-        📌 Exploring exception handling in Java an its types of exceptions explained.
+        🛡️CustomExceptionHandling.java
+            📌 Exploring Custom exception handling in Java .
     
 
 
