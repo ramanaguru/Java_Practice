@@ -40,7 +40,31 @@
       Same way , Interface is like giving direction to class , what to do , but it wont do it by itself. class has to do it by itself.
 
 
-      Generalising it and not specificing/specializing it.
+    ===> Generalising it and not specificing/specializing it.
+
+    TYPES OF INTERFACES  : 
+        *  Normal Interface :
+                It have more than one method 
+
+        *  Functional Interface  or it is also known "SAM" (Single Abstract Method)
+                It have only one method 
+
+        *  Marker Interface : 
+                It is used to deliver type information at runtime to the JVM so that it can take some action based on the information received.
+                It is used for Handling Exceptions
+                
+            =======> See Markerinterfaceexample.java file for detailed explaination with example < ======================
+
+            It is  an empty interface which made on purpose
+            ex: Cloneable, Serializable (This examples are in-build)
+
+            public interface Cloneable{
+                ===>    If you like to use this , in main method just  import java.lang.Cloneable;     <===
+            }
+
+            public interface Serializable{
+                ===>    If you like to use this , in main method just  import java.lang.Serializable;     <===
+            }
 
 
 */
