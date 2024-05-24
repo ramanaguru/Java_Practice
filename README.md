@@ -96,6 +96,10 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
 
         🛡️CustomExceptionHandling.java
             📌 Exploring Custom exception handling in Java .
+
+    🔗 How_to_read_Or_get_INPUT_From_User / 
+        🧩 method_1_BufferReader.java
+                Exploring How to read or get input from user using BufferedReader
     
 
 
