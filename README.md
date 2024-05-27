@@ -65,7 +65,12 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
     📌 Exploring the final keyword and its usage in Java to define constants, prevent inheritance, and restrict method overriding.
 
     🛡️finallyDemo.java
-    📌 Exploring the finally keyword and its usage in Java  regardless whether the code executed or throws exception it will be always executed and exploring try with resources 
+    📌 Exploring the finally keyword and its usage in Java  regardless whether the code executed or throws exception it will be always executed and exploring try with resources.
+
+    🛡️finalizeDemo.java
+    📌 Exploring finalize keyword which uses to call garbage collector before remove object from its memory and explained with some examples and used some annotations
+
+
 
     🪀 AbstractExample.java
     📌 Understanding abstraction and abstract classes in Java.
