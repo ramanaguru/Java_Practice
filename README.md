@@ -117,11 +117,14 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
             🧩 threadsDemo_1.java 
                  📌 Exploring Thread with simple explaination and with examples
 
-            🧩threadsDemo2_Runnable
+            🧩 threadsDemo2_Runnable.java
                 📌 Exploring Thread using Runnable Interface and used lambda expressions
 
-    
-         
+            🧩 synchronizedDemo.java
+                📌 Exploring Thread using Synchronized and detailed explaination and also used lambda expressions & Thread.join()
+
+
+
 
 
 
