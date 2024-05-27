@@ -8,6 +8,15 @@ Static ?
 - Static methods are accessed using the class name and don't need an object to be created.
 
 Static methods can accexss only by static variables
+ex: 
+      
+        class A{
+            static int a = 10;
+            static void show(){
+                System.out.println(a);
+            }
+        }
+        
 
 
 static block ?
