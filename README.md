@@ -114,10 +114,14 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
 
 
     🔗 Threads_Concepts_WithExamples /
-            🧩threadsDemo_1.java 
+            🧩 threadsDemo_1.java 
                  📌 Exploring Thread with simple explaination and with examples
 
-            
+            🧩threadsDemo2_Runnable
+                📌 Exploring Thread using Runnable Interface and used lambda expressions
+
+    
+         
 
 
 
