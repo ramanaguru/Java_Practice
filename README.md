@@ -99,7 +99,18 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
 
     🔗 How_to_read_Or_get_INPUT_From_User / 
         🧩 method_1_BufferReader.java
-                Exploring How to read or get input from user using BufferedReader
+                Exploring How to read or get input from user using BufferedReader and Explained the differences between  BufferedReader and Scanner.
+
+        🧩 method_2_Scanner.java
+                Exploring How to read or get input from user using Scanner and Explained the differences between Scanner and BufferedReader.
+
+
+
+
+
+
+
+
     
 
 
