@@ -1,6 +1,21 @@
 /* 
+
+flow of execution of the program:
+
+
+                     Software (s\w)
+                    s\w  ====>  s1  ---->  s2  ---->  s3 (3 software running at the same time)
+                                    |           |
+                                    \|/         \|/
+                                     os
+
+                                    Hardware (H\w)
+                                    H\w  ---->  CPU (executes instructions)
+                                                RAM (temporary storage)
+
  
     What is a thread?
+
     - A thread is a lightweight sub-process, the smallest unit of processing. It is a separate path of execution.  
     -Threads are independent, if an exception occurs in one thread, it doesn't affect other threads. It shares a common memory area. 
 
