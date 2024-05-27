@@ -62,7 +62,10 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
     📌 Understanding polymorphism and its importance in Java programming. 
 
     🛡️ final.java
-    📌 Exploring the final keyword and its usage in Java to define constants, prevent inheritance, and restrict method overriding.    
+    📌 Exploring the final keyword and its usage in Java to define constants, prevent inheritance, and restrict method overriding.
+
+    🛡️finallyDemo.java
+    📌 Exploring the finally keyword and its usage in Java  regardless whether the code executed or throws exception it will be always executed and exploring try with resources 
 
     🪀 AbstractExample.java
     📌 Understanding abstraction and abstract classes in Java.
