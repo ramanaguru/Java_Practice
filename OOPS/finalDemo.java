@@ -4,6 +4,10 @@ Let's  understand the final keyword in java :
 
 final keyword can be used with variables, methods, and classes
 
+final class cannot be overridden
+final class cannot be extended
+final class cannot be subclassed (or) inherited
+
 
 variabe example with final keyword : [Preventing / Stopping modification]
 
