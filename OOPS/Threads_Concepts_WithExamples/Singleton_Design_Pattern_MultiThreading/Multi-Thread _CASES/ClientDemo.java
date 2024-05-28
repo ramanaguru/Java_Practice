@@ -8,19 +8,10 @@ public class ClientDemo {
         ExecutorService es = Executors.newFixedThreadPool(2);
 
 
-        Runnable task1 = () -> {
-            TvDemo tv1 = TvDemo.getTvSetInstance();
-            System.out.println("TV1 instance: " + tv1);
-        };
-
-        // Create another Runnable that also calls TvDemo.getTvSetInstance()
-        Runnable task2 = () -> {
-            TvDemo tv2 = TvDemo.getTvSetInstance();
-            System.out.println("TV2 instance: " + tv2);
-        };
+       
         
-        es.execute(task1);
-        es.execute(task2);
+        es.execute(() -> TvDemo.getTvSetInstance());
+        es.execute(() -> TvDemo.getTvSetInstance());
 
         
     }
