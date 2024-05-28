@@ -123,6 +123,18 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
             🧩 synchronizedDemo.java
                 📌 Exploring Thread using Synchronized and detailed explaination and also used lambda expressions & Thread.join()
 
+            🔗Stack_Example /
+                    🧩 demo.java 
+                        📌 Exploring Stack Example  to undertand "Synchronized" better 
+                    
+                    🧩 Stack.java
+                        📌  Stack Implementation with "Synchronized" Keyword
+
+
+    
+                
+
+
 
 
 
