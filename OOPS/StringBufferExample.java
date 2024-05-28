@@ -44,6 +44,19 @@ public class StringBufferExample {
 
         sb.insert(1, "e"); 
         System.out.println(sb); // Hello
+
+
+        sb.append(sb);
+        System.out.println(sb); // HelloHello
+
+        sb.reverse(); // olleHolleH
+
+
+        //StringBuffer to String
+        String str = sb.toString();
+        System.out.println(str + " string added") ; // olleHolleH
+
+        str.contentEquals(sb);
     }
 
 }
