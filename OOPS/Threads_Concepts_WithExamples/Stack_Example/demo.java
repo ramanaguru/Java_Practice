@@ -21,15 +21,21 @@ package Threads_Concepts_WithExamples.Stack_Example;
 
 public class demo {
     public static void main(String[] args) {
-        Stack stack = new Stack(5);
+
         
-        new Thread(() ->{
+        Stack stack = new Stack(5);
+        // System.out.println(stack.isEmpty());
+        
+        Thread t1 = new Thread(() ->{
             int counter = 0;
 
             while(++counter <= 5){
                 System.out.println("Pushed: " + stack.push(counter));
             }
-        }, "PusherThread").start();
+        });
+        
+        t1.setName("PusherThread");
+        t1.start();
 
 
         new Thread(() -> {
@@ -40,6 +46,8 @@ public class demo {
             }
         }, "PopperThread").start();
         
+        System.out.println(t1.getName());
+
     
 
     }

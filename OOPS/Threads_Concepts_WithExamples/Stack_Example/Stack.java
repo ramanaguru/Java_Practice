@@ -13,7 +13,7 @@ public class Stack {
     }
 
     public boolean isEmpty(){
-        return array.length < 0;
+        return array.length <= 0;
     }
 
     public boolean isFull(){
