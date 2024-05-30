@@ -4,7 +4,7 @@ import java.util.concurrent.Executors;
 public class ClientDemo {
     public static void main(String[] args) {
 
-        
+        //from TvDemo class is also the best way to create the singleton object 
         ExecutorService es = Executors.newFixedThreadPool(10);
 
         es.execute(() -> TvDemo.getTvSetInstance());
@@ -18,6 +18,7 @@ public class ClientDemo {
         System.out.println(TvDemo.getTvSetInstance());
         System.out.println(TvDemo.getTvSetInstance());
 
+        //this is the best way to create the singleton object and it is called as Bill Push Singleton
         es.execute(() -> FinalSolutionSingleton.getInstance());
         es.execute(() -> FinalSolutionSingleton.getInstance());
         es.execute(() -> FinalSolutionSingleton.getInstance());
@@ -33,8 +34,19 @@ public class ClientDemo {
         es.shutdown(); // for good practice to shutdown the executor service 
 
         /*
-         
-         
+            Output : (Objects will be changing i.e see the numbersint output for each time you run the code)
+
+                TvDemo Object Created
+                TvDemo@6bc7c054
+                TvDemo@6bc7c054
+                TvDemo@6bc7c054
+                From Bill Push Singleton
+                FinalSolutionSingleton@14ae5a5
+                FinalSolutionSingleton@14ae5a5
+                FinalSolutionSingleton@14ae5a5
+                java.util.concurrent.ThreadPoolExecutor@c387f44[Running, pool size = 10, active threads = 0, queued tasks = 0, completed tasks = 11]
+
+                        
         */
 
 
