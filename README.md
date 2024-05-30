@@ -123,13 +123,30 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
             🧩 synchronizedDemo.java
                 📌 Exploring Thread using Synchronized and detailed explaination and also used lambda expressions & Thread.join()
 
-            🔗Stack_Example /
+            🔗 Stack_Example /
                     🧩 demo.java 
                         📌 Exploring Stack Example  to undertand "Synchronized" better 
                     
                     🧩 Stack.java
                         📌  Stack Implementation with "Synchronized" Keyword
 
+            🔗 Singleton_Design_Pattern_MultiThreading /
+                    🔗 Single Thread /
+                        🧩 clientDemo.java ==> This is like Main method
+                            📌 Exploring with single thread environment with one example of TvSet.java
+
+                        🧩 TvSet.java
+                            📌 This is example and exploring with single thread safety
+
+                    🔗 Multi-Thread_CASES /
+                        🧩 clientDemo.java  ==> This is like Main method
+                            📌 Exploring with Double-Check-LOCK  pattern and with final soution (Bill Push Solution)
+                        
+                        🧩 TvDemo.java
+                            📌 Explained with diagram and example make sure it is multi thread safety and used  synchronisation && Volatile Keywords
+                        
+                        🧩 FinalSolutionSingleton.java
+                            📌 Explained with static final and static methods , This is also best eay for Encapsulation , Lazy initialization , Thread safety
 
     
                 
