@@ -131,6 +131,11 @@ Check out my portfolio:  https://ramanaguru-portfolio.netlify.app/
                         📌  Stack Implementation with "Synchronized" Keyword
 
             🔗 Singleton_Design_Pattern_MultiThreading /
+                    🔗 Interview_Examples / 
+                        🧩 Restaurant.java
+                            📌 Remember this explaination and example
+                        
+
                     🔗 Single Thread /
                         🧩 clientDemo.java ==> This is like Main method
                             📌 Exploring with single thread environment with one example of TvSet.java
