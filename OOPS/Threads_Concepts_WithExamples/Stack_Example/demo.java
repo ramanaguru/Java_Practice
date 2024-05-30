@@ -10,15 +10,8 @@
 
 
 
-
-
     synchronised behind the scenes --> locks the object on which it is called, preventing other threads from accessing the synchronized block or method on the same object until the lock is released.
     
-
-    
-
-
-
 
 
 */
