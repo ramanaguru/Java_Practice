@@ -5,13 +5,38 @@ public class ClientDemo {
     public static void main(String[] args) {
 
         
-        ExecutorService es = Executors.newFixedThreadPool(2);
+        ExecutorService es = Executors.newFixedThreadPool(10);
 
-
-       
-        
         es.execute(() -> TvDemo.getTvSetInstance());
         es.execute(() -> TvDemo.getTvSetInstance());
+        es.execute(() -> TvDemo.getTvSetInstance());
+        es.execute(() -> TvDemo.getTvSetInstance());
+        es.execute(() -> TvDemo.getTvSetInstance());
+        es.execute(() -> TvDemo.getTvSetInstance());
+
+        System.out.println(TvDemo.getTvSetInstance()); // all the objects are same ,for verification lets print and check it,  see the output
+        System.out.println(TvDemo.getTvSetInstance());
+        System.out.println(TvDemo.getTvSetInstance());
+
+        es.execute(() -> FinalSolutionSingleton.getInstance());
+        es.execute(() -> FinalSolutionSingleton.getInstance());
+        es.execute(() -> FinalSolutionSingleton.getInstance());
+        es.execute(() -> FinalSolutionSingleton.getInstance());
+        es.execute(() -> FinalSolutionSingleton.getInstance());
+
+
+        System.out.println(FinalSolutionSingleton.getInstance()); // all the objects are same ,for verification lets print and check it,  see the output
+        System.out.println(FinalSolutionSingleton.getInstance());
+        System.out.println(FinalSolutionSingleton.getInstance());
+
+        System.out.println(es);
+        es.shutdown(); // for good practice to shutdown the executor service 
+
+        /*
+         
+         
+        */
+
 
         
     }
