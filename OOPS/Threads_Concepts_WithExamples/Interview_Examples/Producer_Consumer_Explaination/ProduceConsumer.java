@@ -7,7 +7,7 @@ public class ProduceConsumer {
 
     public static void main(String[] args) {
         Object lock = new Object();
-        Queue<Integer> q = new LinkedList<>();
+        Queue<Integer> q = new LinkedList<>(); // momo plate  ===> to understand this see Restaurant example in same package
         int size = 10;
 
         Thread producer = new Thread(new Runnable() {
