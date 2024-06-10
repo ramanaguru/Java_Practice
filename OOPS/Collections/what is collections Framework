@@ -1,0 +1,42 @@
+
+collections allows a group of objects to be treated as a single unit.
+
+In java, This core framework is provided in the java.util packages and 3 main parts :
+
+  1. Core Interface
+  2. Concrete Classes --> set of implementations that are specific implementations to core interfaces
+  3. static utility methods found in the Collections and Array Classes can be used to perform various operations on collections & Arrays such as sorting, searching , or creating customised collections
+
+
+
+================================================================================================================================================================================================
+
+
+1. Core Interface : 
+
+  Collection framework extends "ITERABLE INTERFACE" that specifies an iterator to access the elements of "ITERABLE OBJECT"
+      interface(java.lang.Iterable)
+      |
+      v
+      Iterable
+      |
+      v
+      Collection
+      |
+      +-- List
+      |    +-- ArrayList
+      |    +-- LinkedList
+      |
+      +-- Set
+      |    +-- HashSet
+      |    +-- LinkedHashSet
+      |    +-- TreeSet
+      |
+      +-- Queue
+            +-- PriorityQueue
+            +-- LinkedList
+
+
+
+
+2.
